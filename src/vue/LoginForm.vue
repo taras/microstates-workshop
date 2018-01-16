@@ -8,8 +8,7 @@
       <input type="password" placeholder="Password">
     </label>
     <input id="show-password" type="checkbox"><label for="show-password">Show password</label>
-    <p><input type="submit" class="button expanded" value="Log in"></input></p>
-    <p class="text-center"><a href="#">Forgot your password?</a></p>
+    <p><input type="submit" class="button expanded" value="Log in" /></p>
   </form>
 </template>
 

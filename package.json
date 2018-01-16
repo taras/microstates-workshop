@@ -22,10 +22,14 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@storybook/vue": "3.3.9",
     "css-loader": "0.28.8",
     "expect": "22.1.0",
     "foundation-sites": "6.4.4-rc1",
     "hoist-non-react-statics": "2.3.1",
-    "storybook-addon-specifications": "2.1.1"
+    "storybook-addon-specifications": "2.1.1",
+    "vue": "2.5.13",
+    "vue-loader": "13.7.0",
+    "vue-template-compiler": "2.5.13"
   }
 }
