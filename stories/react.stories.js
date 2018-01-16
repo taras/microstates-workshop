@@ -1,16 +1,15 @@
 import React from 'react'
 
 import { storiesOf } from '@storybook/react'
-import { action } from '@storybook/addon-actions'
-import { linkTo } from '@storybook/addon-links'
 import { specs } from 'storybook-addon-specifications'
-import ReactLoginForm from '../src/react/LoginForm'
+
 import 'foundation-sites/dist/css/foundation.css'
 import '../src/LoginForm.css'
 
 import ModelTests from './model.test'
+import ReactLoginForm from '../src/react/LoginForm'
 
-let stories = storiesOf('Microstates', module)
+let stories = storiesOf('React', module)
 
 stories.add('Introduction', () => (
   <section>
@@ -25,6 +24,6 @@ stories.add('Model', function() {
   return <h2>Model Tests</h2>
 })
 
-stories.add('React Login Form', function() {
+stories.add('Login Form', function() {
   return <ReactLoginForm />
 })

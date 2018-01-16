@@ -1,7 +1,7 @@
 import { Component, createElement } from 'react'
+import microstate from 'microstates'
 import { map } from 'funcadelic'
 import hoistStatics from 'hoist-non-react-statics'
-import microstate from 'microstates'
 
 /**
  * Connect function creates a wrapper around a React Component. This wrapper
