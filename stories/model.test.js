@@ -4,17 +4,13 @@ import expect from 'expect'
 import Model from '../src/model'
 import microstate from 'microstates'
 
-export default function ModelTests() {
-  specs(() =>
-    describe('Model', function() {
-      describe('empty form', function() {
-        let ms = microstate(Model)
-        it('has empty username field', function() {
-          expect(ms.state.username).toBeFalsy()
-        })
-      })
+export default () =>
+  describe('Model', function() {
+    let ms = microstate(Model)
+    it('has empty username field', function() {
+      expect(ms.state.username).toBeTruthy()
     })
-  )
-
-  return <h2>Model Tests</h2>
-}
+    it('has empty password field', function() {
+      expect(ms.state.password).toBeTruthy()
+    })
+  })

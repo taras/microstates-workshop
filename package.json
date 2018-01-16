@@ -20,7 +20,9 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "css-loader": "0.28.8",
     "expect": "22.1.0",
+    "foundation-sites": "6.4.4-rc1",
     "storybook-addon-specifications": "2.1.1"
   }
 }
