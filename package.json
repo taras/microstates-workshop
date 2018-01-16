@@ -1,0 +1,26 @@
+{
+  "name": "microstates-demo",
+  "version": "0.0.1",
+  "description": "Demo Microstates",
+  "scripts": {
+    "start": "npm run storybook",
+    "storybook": "start-storybook -p 3000"
+  },
+  "dependencies": {
+    "microstates": "0.3.1-beta.0",
+    "webpack": "^3.10.0",
+    "@storybook/react": "^3.3.9",
+    "@storybook/addon-actions": "^3.3.9",
+    "@storybook/addon-links": "^3.3.9",
+    "@storybook/addons": "^3.3.9",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "@storybook/cli": "^3.3.3",
+    "babel-core": "^6.26.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "expect": "22.1.0",
+    "storybook-addon-specifications": "2.1.1"
+  }
+}
