@@ -5,7 +5,7 @@
   "scripts": {
     "start": "npm run storybook",
     "storybook-react": "start-storybook -p 3000 -c .storybook-react",
-    "storybook-vue": "start-storybook -p 3000 -c .storybook-vue"
+    "storybook-vue": "start-storybook -p 3001 -c .storybook-vue"
   },
   "dependencies": {
     "microstates": "0.3.1-beta.0",
