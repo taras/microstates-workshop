@@ -40,9 +40,9 @@ export default function connect(Model, WrappedComponent) {
 
     render() {
       return createElement(WrappedComponent, {
+        ...this.props,
         model: this.microstate.state,
-        actions: this.actions,
-        ...this.props
+        actions: this.actions
       })
     }
   }
